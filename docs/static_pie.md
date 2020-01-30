@@ -12,7 +12,7 @@ static-pie binary are explained in
 A statically linked PIE binary differs from a dynamically linked PIE binary in
 the following ways:
 
-1. As there are no dynamic libraries to be loaded, they is no need of the
+1. As there are no dynamic libraries to be loaded, there is no need for the
 program interpreter. Consequently, there is no `PT_INTERP` segment in a
 static-pie binary.
 1. The dynamic section will not have `DT_NEEDED` entries as a static-pie binary
